@@ -2,7 +2,7 @@ const Discord = require('discord.js')
 const bot = new Discord.Client()
 const Google = require('./commands/google')
 const Ping = require('./commands/ping')
-const {token, prefix} = require('./app/config.json')
+const {prefix} = require('./config.json')
 
 
 bot.on('ready', () => {
