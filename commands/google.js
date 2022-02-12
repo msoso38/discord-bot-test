@@ -4,7 +4,7 @@ module.exports = class Google extends Command {
     
 
     static match (message) {
-        return message.content.startsWith(`${prefix}google`)
+        return message.content.startsWith(`v!google`)
     }
 
     static action (message) {
