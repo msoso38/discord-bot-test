@@ -4,7 +4,7 @@ module.exports = class Ping extends Command {
     
 
     static match (message) {
-        return message.content.startsWith(`${prefix}ping`)
+        return message.content.startsWith(`v!ping`)
     }
 
     static action (message) {
