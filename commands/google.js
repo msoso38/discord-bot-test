@@ -1,4 +1,4 @@
-const Command = require('./app/command.js')
+const Command = require('./command.js')
 
 module.exports = class Google extends Command {
     
